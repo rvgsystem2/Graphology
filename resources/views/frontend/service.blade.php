@@ -1,8 +1,6 @@
 @extends('component.main')
 @section('content')
 
-{{-- SERVICES PAGE --}}
-
     {{-- HERO BANNER --}}
     <section class="relative w-full h-[60vh] lg:h-[50vh] flex items-center justify-center overflow-hidden">
         <!-- Background Image -->

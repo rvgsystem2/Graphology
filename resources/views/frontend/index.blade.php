@@ -108,10 +108,6 @@
     {{-- end section --}}
     <!-- Decorative Divider -->
     <div class="relative w-full -mt-20 h-2 my-12 overflow-hidden bg-[#EBA35B] hidden md:block">
-        <!-- Background Image -->
-        {{-- <img src="https://cdn.pixabay.com/photo/2015/09/24/12/33/background-955454_1280.jpg"
-         alt="Decorative Divider"
-         class="w-full h-full object-cover opacity-90 rounded-lg shadow-md"> --}}
 
         <!-- Overlay -->
         <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
@@ -312,10 +308,6 @@
     {{-- end service section --}}
     <!-- Decorative Divider -->
     <div class="relative w-full  h-2 my-12 overflow-hidden bg-[#EBA35B] hidden md:block">
-        <!-- Background Image -->
-        {{-- <img src="https://cdn.pixabay.com/photo/2015/09/24/12/33/background-955454_1280.jpg"
-     alt="Decorative Divider"
-     class="w-full h-full object-cover opacity-90 rounded-lg shadow-md"> --}}
 
         <!-- Overlay -->
         <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
@@ -452,10 +444,6 @@
     </section>
     <!-- Decorative Divider -->
     <div class="relative w-full h-2 my-12 overflow-hidden bg-[#EBA35B] hidden md:block">
-        <!-- Background Image -->
-        {{-- <img src="https://cdn.pixabay.com/photo/2015/09/24/12/33/background-955454_1280.jpg"
-     alt="Decorative Divider"
-     class="w-full h-full object-cover opacity-90 rounded-lg shadow-md"> --}}
 
         <!-- Overlay -->
         <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
@@ -538,10 +526,6 @@
     {{-- END WHY CHOOSE  ME SECTION --}}
     <!-- Decorative Divider -->
     <div class="relative w-full  h-2 my-12 overflow-hidden bg-[#EBA35B] hidden md:block">
-        <!-- Background Image -->
-        {{-- <img src="https://cdn.pixabay.com/photo/2015/09/24/12/33/background-955454_1280.jpg"
-         alt="Decorative Divider"
-         class="w-full h-full object-cover opacity-90 rounded-lg shadow-md"> --}}
 
         <!-- Overlay -->
         <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
