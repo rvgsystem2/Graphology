@@ -69,9 +69,9 @@
       </div>
       <!-- Image -->
       <div class="relative">
-        <img src="https://cdn.pixabay.com/photo/2018/02/18/18/38/clock-3163064_1280.jpg"
+        <img src="https://cdn.pixabay.com/photo/2017/09/13/11/39/wrist-watch-2745278_1280.png"
              alt="Wristwatch Analysis"
-             class="rounded-2xl shadow-lg hover:scale-105 transform transition duration-500">
+             class=" transform transition duration-500">
       </div>
     </div>
 
@@ -82,16 +82,16 @@
     <div class="max-w-5xl mx-auto text-center space-y-6">
       <h3 class="text-2xl md:text-3xl font-semibold text-[#EBA35B]">Why Choose Shivansh Dargarh</h3>
       <ul class="grid md:grid-cols-2 gap-6 text-gray-300 mt-8 text-left">
-        <li class="bg-[#2a2a2a] rounded-xl p-6 shadow-md hover:shadow-lg transition">
+        <li class="bg-[#EBA35B]/30 rounded-xl p-6 shadow-md hover:shadow-lg transition">
           ✅ Recognized as the best wristwatch teller in Kanpur
         </li>
-        <li class="bg-[#2a2a2a] rounded-xl p-6 shadow-md hover:shadow-lg transition">
+        <li class="bg-[#EBA35B]/30 rounded-xl p-6 shadow-md hover:shadow-lg transition">
           ✅ Specialized expertise in linking watch choices to personality traits
         </li>
-        <li class="bg-[#2a2a2a] rounded-xl p-6 shadow-md hover:shadow-lg transition">
+        <li class="bg-[#EBA35B]/30 rounded-xl p-6 shadow-md hover:shadow-lg transition">
           ✅ A rare, modern approach combined with graphology and handwriting analysis
         </li>
-        <li class="bg-[#2a2a2a] rounded-xl p-6 shadow-md hover:shadow-lg transition">
+        <li class="bg-[#EBA35B]/30 rounded-xl p-6 shadow-md hover:shadow-lg transition">
           ✅ Personalized sessions designed for self-discovery and growth
         </li>
       </ul>
@@ -106,16 +106,16 @@
         Who Can Benefit from Wristwatch Analysis
       </h3>
       <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-        <div class="bg-[#2a2a2a] rounded-xl p-6 shadow hover:scale-105 transition">
+        <div class="bg-[#EBA35B]/30 rounded-xl p-6 shadow hover:scale-105 transition">
           <p class="text-gray-300">🔍 Individuals curious about their personality and decision-making style</p>
         </div>
-        <div class="bg-[#2a2a2a] rounded-xl p-6 shadow hover:scale-105 transition">
+        <div class="bg-[#EBA35B]/30 rounded-xl p-6 shadow hover:scale-105 transition">
           <p class="text-gray-300">💼 Professionals wanting to understand their life patterns and priorities</p>
         </div>
-        <div class="bg-[#2a2a2a] rounded-xl p-6 shadow hover:scale-105 transition">
+        <div class="bg-[#EBA35B]/30 rounded-xl p-6 shadow hover:scale-105 transition">
           <p class="text-gray-300">❤️ Couples seeking deeper insights into compatibility and preferences</p>
         </div>
-        <div class="bg-[#2a2a2a] rounded-xl p-6 shadow hover:scale-105 transition">
+        <div class="bg-[#EBA35B]/30 rounded-xl p-6 shadow hover:scale-105 transition">
           <p class="text-gray-300">🌟 Anyone looking for a unique and eye-opening personality analysis</p>
         </div>
       </div>
