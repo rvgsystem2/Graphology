@@ -1,7 +1,6 @@
 @extends('component.main')
 @section('content')
     {{-- HERO SECTION --}}
-
     <section
         class="bg-[#3E3229] max-w-full mx-auto flex flex-col-reverse md:flex-row gap-8 md:gap-12 justify-center items-center py-12 md:py-20 lg:py-20 px-6 md:px-4 lg:px-24 overflow-hidden">
         <!-- Left Content -->
@@ -14,7 +13,7 @@
 
             <!-- Heading -->
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-white font-[Poppins]">
-                 <span class="text-[#EBA35B]">Graphologist</span>,<br class="hidden md:block">
+                <span class="text-[#EBA35B]">Graphologist</span>,<br class="hidden md:block">
                 Handwriting Analyst & <span class="text-[#EBA35B]">Wristwatch Teller</span>
             </h1>
 
@@ -29,11 +28,11 @@
 
             <!-- Buttons -->
             <div class="flex flex-wrap md:flex-nowrap gap-4 pt-4">
-                <a href="#"
+                <a href="/"
                     class="px-7 py-3 rounded-2xl bg-[#EBA35B] text-white font-semibold text-lg shadow-lg shadow-[#EBA35B]/30 hover:bg-white hover:text-[#EBA35B] transition-all duration-300">
                     Get Started
                 </a>
-                <a href="#"
+                <a href="{{route('frontend.consultation')}}"
                     class="px-7 py-3 rounded-2xl border-2 border-[#EBA35B] text-[#EBA35B] font-semibold text-lg hover:bg-[#EBA35B] hover:text-white transition-all duration-300">
                     Learn More
                 </a>
@@ -50,21 +49,11 @@
         </div>
     </section>
     {{-- end hero section --}}
-
-
     <!-- Decorative Divider -->
     <div class="relative w-full -mt-20 h-2 my-12 overflow-hidden bg-[#EBA35B] hidden md:block">
-        <!-- Background Image -->
-        {{-- <img src="https://cdn.pixabay.com/photo/2015/09/24/12/33/background-955454_1280.jpg"
-         alt="Decorative Divider"
-         class="w-full h-full object-cover opacity-90 rounded-lg shadow-md"> --}}
-
         <!-- Overlay -->
         <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
     </div>
-
-
-
     {{-- ABOUT SECTION --}}
     <section id="about" class="overflow-hidden">
         <div
@@ -106,7 +95,7 @@
                         Book a session today with Kanpur’s <span class="text-[#EBA35B] font-semibold">leading graphologist &
                             wristwatch expert</span>.
                     </p>
-                    <a href="#contact"
+                    <a href="{{route('frontend.about')}}"
                         class="inline-block px-8 py-3 bg-gradient-to-r from-[#EBA35B] to-[#d98b41] text-white font-semibold rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
                         Book a Session
                     </a>
@@ -114,9 +103,7 @@
             </div>
         </div>
     </section>
-
     {{-- end section --}}
-
     <!-- Decorative Divider -->
     <div class="relative w-full -mt-20 h-2 my-12 overflow-hidden bg-[#EBA35B] hidden md:block">
         <!-- Background Image -->
@@ -127,7 +114,6 @@
         <!-- Overlay -->
         <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
     </div>
-
     <!-- Services Section -->
     <section id="services" class="max-w-full mx-auto py-12 md:py-12 lg:py-20 px-6 md:px-4 lg:px-24">
         <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
@@ -322,20 +308,17 @@
     </section>
 
     {{-- end service section --}}
-<!-- Decorative Divider -->
-<div class="relative w-full  h-2 my-12 overflow-hidden bg-[#EBA35B] hidden md:block">
-    <!-- Background Image -->
-    {{-- <img src="https://cdn.pixabay.com/photo/2015/09/24/12/33/background-955454_1280.jpg"
+    <!-- Decorative Divider -->
+    <div class="relative w-full  h-2 my-12 overflow-hidden bg-[#EBA35B] hidden md:block">
+        <!-- Background Image -->
+        {{-- <img src="https://cdn.pixabay.com/photo/2015/09/24/12/33/background-955454_1280.jpg"
      alt="Decorative Divider"
      class="w-full h-full object-cover opacity-90 rounded-lg shadow-md"> --}}
 
-    <!-- Overlay -->
-    <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
-</div>
-
-
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
+    </div>
     {{-- SERVICE DETAILS SECTION  --}}
-
     <!-- Insights Section -->
     <section id="insights" class="w-full mx-auto px-6 md:px-12 lg:px-24 py-16">
         <!-- Heading -->
@@ -465,22 +448,17 @@
 
         </div>
     </section>
-
-
-<!-- Decorative Divider -->
-<div class="relative w-full h-2 my-12 overflow-hidden bg-[#EBA35B] hidden md:block">
-    <!-- Background Image -->
-    {{-- <img src="https://cdn.pixabay.com/photo/2015/09/24/12/33/background-955454_1280.jpg"
+    <!-- Decorative Divider -->
+    <div class="relative w-full h-2 my-12 overflow-hidden bg-[#EBA35B] hidden md:block">
+        <!-- Background Image -->
+        {{-- <img src="https://cdn.pixabay.com/photo/2015/09/24/12/33/background-955454_1280.jpg"
      alt="Decorative Divider"
      class="w-full h-full object-cover opacity-90 rounded-lg shadow-md"> --}}
 
-    <!-- Overlay -->
-    <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
-</div>
-
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
+    </div>
     {{--  END SERVICE DETAILS SECTION  --}}
-
-
     {{-- WHY CHOOSE ME --}}
     <section id="why-choose" class="relative bg-[#3E3229] py-16 md:py-20 lg:py-24">
         <div class="max-w-full mx-auto px-6 md:px-10 lg:px-20 text-center">
@@ -492,7 +470,7 @@
                     Why Choose Shivansh Dargarh
                 </span>
                 <h2 class="mt-4 text-3xl md:text-4xl lg:text-5xl font-extrabold text-white">
-                    People  <span class="text-[#EBA35B]">Trust </span> Shivansh Dargarh
+                    People <span class="text-[#EBA35B]">Trust </span> Shivansh Dargarh
                 </h2>
                 <p class="mt-4 max-w-3xl mx-auto text-gray-300 text-lg">
                     Known for accuracy, empathy, and a unique approach, here’s what sets us apart:
@@ -555,10 +533,7 @@
             </div>
         </div>
     </section>
-
-
     {{-- END WHY CHOOSE  ME SECTION --}}
-
     <!-- Decorative Divider -->
     <div class="relative w-full  h-2 my-12 overflow-hidden bg-[#EBA35B] hidden md:block">
         <!-- Background Image -->
@@ -569,7 +544,6 @@
         <!-- Overlay -->
         <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
     </div>
-
     {{-- NEXT STEP TO DO --}}
     <section id="cta"
         class="relative bg-gradient-to-r from-[#3E3229] via-[#2a221c] to-[#3E3229] py-16 md:py-20 lg:py-24">

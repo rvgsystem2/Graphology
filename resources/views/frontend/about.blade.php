@@ -17,11 +17,7 @@
             </nav>
         </div>
     </section>
-
-
     <!-- Hero Section -->
-
-
     <section class="bg-[#3E3229] text-white relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-6 py-16 lg:py-24">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -119,9 +115,6 @@
             </div>
         </div>
     </section>
-
-
-
     <!-- About Section -->
     <!-- My Mission section for Shivansh Dargarh -->
     <section id="mission" class="bg-[#2f2621] text-white">
@@ -261,7 +254,6 @@
             </div>
         </div>
     </section>
-
     <!-- Why People Call Me the Best Graphologist in Kanpur -->
     <section id="why-best" class="bg-[#3E3229] text-white">
         <div class="max-w-7xl mx-auto px-6 py-16 lg:py-24">
@@ -307,7 +299,6 @@
             </div>
         </div>
     </section>
-
     <!-- How I Can Help You -->
     <section id="help" class="bg-[#2f2621] text-white">
         <div class="max-w-7xl mx-auto px-6 py-16 lg:py-24">
@@ -363,8 +354,6 @@
             </div>
         </div>
     </section>
-
-
     <!-- Let Us Connect Section -->
     <section id="contact" class="bg-[#3E3229] text-white">
         <div class="max-w-7xl mx-auto px-6 py-16 lg:py-24">
