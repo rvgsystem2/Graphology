@@ -3,7 +3,7 @@
 
       <!-- Column 1: Company -->
       <div>
-        <h3 class="text-xl font-bold text-[#EAB35B] mb-4">Explormee</h3>
+        <h3 class="text-xl font-bold text-[#EAB35B] mb-4">shivanshdargarh</h3>
         <p class="text-sm leading-relaxed">
           A unit of Traversemee Private Limited, delivering premium handwriting analysis and consultation services.
         </p>
@@ -65,7 +65,7 @@
 
     <!-- Bottom Bar -->
     <div class="mt-10 border-t border-gray-700 py-6 text-center text-sm text-gray-400">
-      <p>© Copyright 2025 <span class="text-[#EAB35B]">Real Victory Groups</span></p>
+      <p>© Copyright 2025 <span class="text-[#EAB35B]">shivanshdargarh</span></p>
       <p>All Rights Reserved</p>
     </div>
   </footer>

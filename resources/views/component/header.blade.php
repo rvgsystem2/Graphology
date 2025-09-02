@@ -1,18 +1,18 @@
 <!-- ================= HEADER WITH TOPBAR ================= -->
-<header class="bg-[#524439] shadow-md fixed top-0 left-0 w-full z-50">
+<header class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between h-16 items-center">
 
         <!-- Logo -->
         <div class="flex-shrink-0 text-2xl font-bold text-[#EBA35B]">
-          <a href="/">Graphologist</a>
+          <a href="/"><img src="{{asset('asset/img/Shivansh Dargarh Logo.png')}}" alt="" class="w-44 h-16 p-2"></a>
         </div>
 
         <!-- Mobile Menu Button -->
         <div class="lg:hidden">
           <button id="menu-btn"
-            class="text-white focus:outline-none focus:ring-2 focus:ring-[#EBA35B] rounded-md p-1">
+            class="text-black focus:outline-none focus:ring-2 focus:ring-[#EBA35B] rounded-md p-1">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
               viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round"
@@ -23,7 +23,7 @@
 
         <!-- Desktop Navigation -->
         <nav class="hidden lg:flex">
-          <ul class="flex space-x-6 text-white font-medium items-center">
+          <ul class="flex space-x-6 text-black font-medium items-center">
 
             <li><a href="/" class="hover:text-[#EFD094] transition">Home</a></li>
             <li><a href="{{route('frontend.about')}}" class="hover:text-[#EFD094] transition">About</a></li>
