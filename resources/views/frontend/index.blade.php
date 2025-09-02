@@ -1,5 +1,7 @@
 @extends('component.main')
 @section('content')
+
+
     {{-- HERO SECTION --}}
     <section
         class="bg-[#3E3229] max-w-full mx-auto flex flex-col-reverse md:flex-row gap-8 md:gap-12 justify-center items-center py-12 md:py-20 lg:py-20 px-6 md:px-4 lg:px-24 overflow-hidden">
@@ -587,4 +589,7 @@
         <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
     </section>
     {{-- END NEXT STEP SECTION  --}}
+
 @endsection
+
+
