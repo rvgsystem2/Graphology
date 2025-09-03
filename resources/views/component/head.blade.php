@@ -37,7 +37,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Graphologist & Handwriting Analyst in Kanpur | Wristwatch Teller – Shivansh Dargarh" />
   <meta name="twitter:description" content="Unlock the story in your handwriting & watch. Book an online or in-person session in Kanpur." />
-  <meta name="twitter:image" content="https://shivanshdargarh.in\asset\img\shield.png" />
+  <meta name="twitter:image" content="https://shivanshdargarh.in/asset/img/short.png" />
   <meta name="twitter:site" content="@shivanshdargarh" />
 
   <!-- Brand / PWA niceties -->
@@ -56,7 +56,7 @@
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
 
   <!-- Preload a hero image (update paths as per your build) -->
-  <link rel="preload" as="image" href="https://shivanshdargarh.in/asset\img\Short.png" imagesrcset="
+  <link rel="preload" as="image" href="https://shivanshdargarh.in/asset/img/Short.png" imagesrcset="
     https://shivanshdargarh.in/assets/hero/hero-mobile.jpg 600w,
     https://shivanshdargarh.in/assets/hero/hero-tablet.jpg 900w,
     https://shivanshdargarh.in/assets/hero/hero-desktop.jpg 1600w" imagesizes="100vw" />

@@ -11,5 +11,17 @@
 
     @include('component.footer')
 
+
+{{-- calendy form  --}}
+    <script>
+        function openModal() {
+          document.getElementById('bookingModal').classList.remove('hidden');
+          document.getElementById('bookingModal').classList.add('flex');
+        }
+        function closeModal() {
+          document.getElementById('bookingModal').classList.add('hidden');
+          document.getElementById('bookingModal').classList.remove('flex');
+        }
+      </script>
 </body>
 </html>
