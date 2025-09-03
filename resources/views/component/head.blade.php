@@ -28,7 +28,7 @@
   <meta property="og:url" content="https://shivanshdargarh.in/" />
   <meta property="og:site_name" content="Shivansh Dargarh" />
   <meta property="og:locale" content="en_IN" />
-  <meta property="og:image" content="https://shivanshdargarh.in/assets/og/hero-og.jpg" />
+  <meta property="og:image" content="https://shivanshdargarh.in/asset/img/img3.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="Handwriting analysis and wristwatch telling by Shivansh Dargarh" />
@@ -37,12 +37,12 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Graphologist & Handwriting Analyst in Kanpur | Wristwatch Teller – Shivansh Dargarh" />
   <meta name="twitter:description" content="Unlock the story in your handwriting & watch. Book an online or in-person session in Kanpur." />
-  <meta name="twitter:image" content="https://shivanshdargarh.in/assets/og/hero-og.jpg" />
+  <meta name="twitter:image" content="https://shivanshdargarh.in/asset/img/img3.jpg" />
   <meta name="twitter:site" content="@shivanshdargarh" />
 
   <!-- Brand / PWA niceties -->
   <meta name="theme-color" content="#F59E0B" />
-  <link rel="icon" type="image/png" sizes="32x32" href="https://shivanshdargarh.in/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="https://shivanshdargarh.in\asset\img\Shivansh Dargarh Logo.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="https://shivanshdargarh.in/favicon-16.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="https://shivanshdargarh.in/apple-touch-icon.png" />
   <link rel="manifest" href="https://shivanshdargarh.in/site.webmanifest" />
@@ -56,7 +56,7 @@
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
 
   <!-- Preload a hero image (update paths as per your build) -->
-  <link rel="preload" as="image" href="https://shivanshdargarh.in/assets/hero/hero-desktop.jpg" imagesrcset="
+  <link rel="preload" as="image" href="https://shivanshdargarh.in/asset/img/short.png" imagesrcset="
     https://shivanshdargarh.in/assets/hero/hero-mobile.jpg 600w,
     https://shivanshdargarh.in/assets/hero/hero-tablet.jpg 900w,
     https://shivanshdargarh.in/assets/hero/hero-desktop.jpg 1600w" imagesizes="100vw" />
@@ -76,7 +76,7 @@
     "@type":"Person",
     "name":"Shivansh Dargarh",
     "jobTitle":"Graphologist & Handwriting Analyst",
-    "image":"https://shivanshdargarh.in/assets/brand/shivansh-profile.jpg",
+    "image":"https://shivanshdargarh.in/assets/brand/img1.jpg",
     "url":"https://shivanshdargarh.in/",
     "email":"mailto:shivanshdargarhlts@gmail.com",
     "telephone":"+91 9517291500",
@@ -102,7 +102,7 @@
     "@context":"https://schema.org",
     "@type":"ProfessionalService",
     "name":"Shivansh Dargarh – Graphology & Wristwatch Telling",
-    "image":"https://shivanshdargarh.in/assets/brand/logo-512.png",
+    "image":"https://shivanshdargarh.in/assets/brand/short.png",
     "url":"https://shivanshdargarh.in/",
     "telephone":"+91 95172 91500",
     "email":"shivanshdargarhlts@gmail.com",
