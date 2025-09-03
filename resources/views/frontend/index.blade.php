@@ -59,24 +59,17 @@
     {{-- ABOUT SECTION --}}
     <section id="about" class="overflow-hidden">
         <div
-            class=" max-w-full mx-auto flex flex-col md:flex-row gap-8 md:gap-12 justify-center items-center py-12 md:py-12 lg:py-20 px-6 md:px-4 lg:px-24 overflow-hidden">
+            class="mx-auto flex flex-col md:flex-row gap-8 md:gap-12 justify-center items-center py-12 md:py-12 lg:py-20 px-6 md:px-4 lg:px-24 overflow-hidden">
 
-            <!-- Image Left -->
-            <div class="">
-                <div class="text-start md:mb-8">
-                    <!-- Tagline -->
-                    <span
-                        class="inline-block text-sm uppercase tracking-[4px] text-[#EBA35B] font-semibold bg-[#EBA35B]/10 px-6 py-2 rounded-full shadow-sm">
-                        <strong class="text-[#EBA35B]">About Me</strong>
-                    </span>
-                </div>
-
-                <img src="{{ asset('asset/img/enhaced-img.png') }}" alt="About Shivansh Dargarh"
-                    class="w-full h-full  transform hover:scale-105 transition duration-500 ease-out object-cover overflow-hidden">
+            <!-- Image Left (Bigger size) -->
+            <div class="flex-1">
+                <img src="{{ asset('asset/img/enhaced-img.png') }}"
+                     alt="About Shivansh Dargarh"
+                     class="w-full h-full rounded-xl object-cover overflow-hidden ">
             </div>
 
             <!-- Content -->
-            <div class="space-y-8 order-2 lg:order-none max-w-xl">
+            <div class="flex-1 space-y-8 order-2 lg:order-none max-w-xl">
                 <!-- Heading -->
                 <h2 class="text-3xl md:text-4xl font-extrabold text-white leading-snug font-[Poppins]">
                     Discover <span class="text-[#EBA35B]">What Your Handwriting & Wristwatch Reveal</span>
@@ -97,14 +90,15 @@
                         Book a session today with Kanpur’s <span class="text-[#EBA35B] font-semibold">leading graphologist &
                             wristwatch expert</span>.
                     </p>
-                    <a href="{{route('frontend.about')}}"
-                        class="inline-block px-8 py-3 bg-gradient-to-r from-[#EBA35B] to-[#d98b41] text-white font-semibold rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
-                        Book a Session
+                    <a href="{{ route('frontend.about') }}"
+                       class="inline-block px-8 py-3 bg-gradient-to-r from-[#EBA35B] to-[#d98b41] text-white font-semibold rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+                       Book a Session
                     </a>
                 </div>
             </div>
         </div>
     </section>
+
     {{-- end section --}}
     <!-- Decorative Divider -->
     <div class="relative w-full -mt-20 h-2 my-12 overflow-hidden bg-[#EBA35B] hidden md:block">
@@ -130,8 +124,8 @@
             <!-- CTA -->
             <div class="flex items-center gap-4">
 
-                <span class="text-sm font-semibold text-white bg-[#EBA35B]/60 py-4 bg-[#EBA35B]/40 px-4 rounded-full">Book a
-                    Session</span>
+               <a href="{{route('frontend.about')}}"><span class="text-sm font-semibold text-white bg-[#EBA35B]/60 py-4 bg-[#EBA35B]/40 px-4 rounded-full">Book a
+                    Session</span></a>
 
             </div>
         </div>
@@ -190,9 +184,9 @@
                 </ul>
 
                 <div class="mt-6 flex items-center justify-between">
-                    <a href="#watch" class="text-sm font-medium underline underline-offset-4 text-yellow-200">Learn
+                    <a href="{{route('frontend.about')}}" class="text-sm font-medium underline underline-offset-4 text-yellow-200">Learn
                         more</a>
-                    <a href="#book"
+                    <a href="{{route('frontend.consultation')}}"
                         class="inline-flex items-center gap-2 text-sm font-semibold px-3 py-2 rounded-lg bg-white border border-indigo-500/20">Book
                         Now</a>
                 </div>
@@ -245,9 +239,9 @@
                 </ul>
 
                 <div class="mt-6 flex items-center justify-between">
-                    <a href="#watch" class="text-sm font-medium underline underline-offset-4 text-yellow-200">Learn
+                    <a href="{{route('frontend.about')}}" class="text-sm font-medium underline underline-offset-4 text-yellow-200">Learn
                         more</a>
-                    <a href="#book"
+                    <a href="{{route('frontend.consultation')}}"
                         class="inline-flex items-center gap-2 text-sm font-semibold px-3 py-2 rounded-lg bg-white border border-indigo-500/20">Book
                         Now</a>
                 </div>
@@ -292,9 +286,9 @@
                 </ul>
 
                 <div class="mt-6 flex items-center justify-between">
-                    <a href="#combined" class="text-sm font-medium underline underline-offset-4 text-yellow-200">Learn
+                    <a href="{{route('frontend.about')}}" class="text-sm font-medium underline underline-offset-4 text-yellow-200">Learn
                         more</a>
-                    <a href="#book"
+                    <a href="{{route('frontend.consultation')}}"
                         class="inline-flex items-center gap-2 text-sm font-semibold px-3 py-2 rounded-lg bg-white border border-emerald-400/20">Book
                         Now</a>
                 </div>
@@ -558,11 +552,11 @@
 
             <!-- Buttons -->
             <div class="mt-10 flex flex-col sm:flex-row justify-center gap-4">
-                <a href="tel:+91XXXXXXXXXX"
+                <a href="tel:+919452773435"
                     class="px-6 py-3 rounded-full bg-[#EBA35B] text-[#3E3229] font-semibold text-lg shadow-lg hover:bg-[#d28f45] transition">
                     📞 Call Us Now
                 </a>
-                <a href="/book-session"
+                <a href="{{route('frontend.consultation')}}"
                     class="px-6 py-3 rounded-full border-2 border-[#EBA35B] text-[#EBA35B] font-semibold text-lg hover:bg-[#EBA35B]/10 transition">
                     📅 Book Online
                 </a>

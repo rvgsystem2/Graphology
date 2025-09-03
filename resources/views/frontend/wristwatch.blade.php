@@ -20,8 +20,8 @@
     </section>
 
     <!-- ================================
-      WRISTWATCH ANALYSIS 
-      ================================ -->
+          WRISTWATCH ANALYSIS
+          ================================ -->
 
     <section class="relative  text-white py-20 px-6 md:px-12 lg:px-24">
         <!-- Hero Title -->
@@ -30,13 +30,13 @@
                 Wristwatch Analysis Services
             </h2>
             <p class="text-lg md:text-xl text-gray-300 leading-relaxed">
-                Discover What Your Watch Says About You with the
-                <span class="font-semibold text-[#EBA35B]">Best Wristwatch Teller in Kanpur</span>
-            </p>
-            <p class="text-gray-400 leading-relaxed">
-                Your wristwatch is more than just an accessory—it reflects your choices, priorities, and personality.
-                At <span class="font-semibold text-[#EBA35B]">Shivansh Dargarh Transformation</span>, we decode what your
-                watch reveals about your mindset, emotions, and lifestyle.
+                Your wristwatch is more than just an accessory. It reflects your choices, priorities, and personality. At
+               <span class="text-[#EBA35B]"> Shivansh Dargarh Transformation,</span> we specialize in wristwatch analysis, a unique technique where we decode
+                what your watch reveals about your mindset, emotions, and lifestyle.
+                <span class="text-[#EBA35B]">Shivansh Dargarh</span> is one of the few experts in India practicing this rare art and is recognized as the best
+                <span class="text-[#EBA35B]">wristwatch teller in Kanpur.</span> Through his sessions, you will discover how your timepiece choices connect with
+                your personality and influence your life decisions.
+
             </p>
         </div>
 

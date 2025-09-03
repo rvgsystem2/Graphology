@@ -39,18 +39,13 @@
             <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
                 <div class="space-y-6">
                     <p class="leading-relaxed">
-                        At <span class="text-[#EBA35B]">Shivansh Dargarh Transformation</span>, we offer detailed
-                        handwriting analysis sessions
-                        that help you understand yourself better and make confident life decisions. With years of
-                        experience, Shivansh Dargarh
-                        is widely recognized as the <span class="text-[#EBA35B] font-semibold">best handwriting analyst in
-                            Kanpur</span>,
-                        helping people from all walks of life achieve clarity and growth through accurate, personalized
-                        handwriting assessments.
+                        Your <span class="text-[#EBA35B]">handwriting</span> is a mirror of your inner world. It reflects your emotions, thinking patterns, and personality traits. <span class="text-[#EBA35B]">At Shivansh Dargarh Transformation,</span> we offer detailed handwriting analysis sessions that help you understand yourself better and make confident life decisions.
+                        With years of experience,<span class="text-[#EBA35B]"> Shivansh Dargarh </span> widely known as the best handwriting analyst in Kanpur, helping people from different walks of life achieve clarity and personal growth through accurate and personalized handwriting assessments.
+
                     </p>
                 </div>
                 <div>
-                    <img src="https://cdn.pixabay.com/photo/2019/03/04/07/22/earth-4033438_1280.jpg"
+                    <img src="https://cdn.pixabay.com/photo/2014/09/05/18/33/old-letters-436501_1280.jpg"
                         alt="Handwriting Analysis" class="rounded-2xl shadow-xl border border-gray-700">
                 </div>
             </div>

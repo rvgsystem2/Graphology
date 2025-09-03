@@ -3,11 +3,14 @@
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between h-16 items-center">
-
-        <!-- Logo -->
-        <div class="flex-shrink-0 text-2xl font-bold text-[#EBA35B]">
-          <a href="/"><img src="{{asset('asset/img/Shivansh Dargarh Logo.png')}}" alt="" class="w-44 h-16 p-2"></a>
-        </div>
+<!-- Logo -->
+<div class="flex-shrink-0">
+    <a href="/" class="flex items-center">
+      <img src="{{ asset('asset/img/Shivansh Dargarh Logo.png') }}"
+           alt="Shivansh Dargarh Logo"
+           class="h-16 w-auto p-2 object-contain">
+    </a>
+  </div>
 
         <!-- Mobile Menu Button -->
         <div class="lg:hidden">

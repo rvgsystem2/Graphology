@@ -55,7 +55,7 @@
 
                 <!-- CTA Button -->
                 <div class="mt-8">
-                    <a href="#contact"
+                    <a href="{{route('frontend.consultation')}}"
                         class="inline-block px-6 py-3 bg-[#EBA35B] text-[#3E3229] font-semibold rounded-full shadow-md hover:bg-[#d38c44] transition">
                         Book Your Session
                     </a>

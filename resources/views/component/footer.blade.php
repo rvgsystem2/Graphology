@@ -63,11 +63,29 @@
       </a>
     </div>
 
-    <!-- Bottom Bar -->
-    <div class="mt-10 border-t border-gray-700 py-6 text-center text-sm text-gray-400">
-      <p>© Copyright 2025 <span class="text-[#EAB35B]">shivanshdargarh</span></p>
-      <p>All Rights Reserved</p>
+   <!-- Bottom Bar -->
+<div class="md:mt-10 border-t border-gray-700 py-4 px-4 text-center text-xs text-gray-400">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-3 md:gap-6">
+
+      <!-- Copyright -->
+      <p class="whitespace-nowrap">
+        © Copyright 2025
+        <span class="text-[#EBA35B] font-medium">shivanshdargarh</span>
+      </p>
+
+      <!-- Rights -->
+      <p class="whitespace-nowrap">
+        All Rights Reserved
+      </p>
+
+      <!-- Developer Credit -->
+      <p class="whitespace-nowrap">
+        Design & Developed By:
+        <span class="text-[#EBA35B] font-medium">Real Victory Groups</span>
+      </p>
+
     </div>
+  </div>
+
   </footer>
 
- 
