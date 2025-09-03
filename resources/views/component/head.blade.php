@@ -8,8 +8,10 @@
 
   {{-- fav icon --}}
   <link rel="icon" type="image/png" href="{{ asset('asset/img/Shivansh Dargarh Logo.png') }}" sizes="32x32">
-
-
+{{-- calendy --}}
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+{{--  --}}
   <meta name="description" content="Unlock personality insights through Handwriting Analysis & Wristwatch Telling with Kanpur’s leading expert, Shivansh Dargarh. Online & in-person sessions. Book now." />
   <link rel="canonical" href="https://shivanshdargarh.in/" />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />

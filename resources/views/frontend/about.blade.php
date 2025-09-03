@@ -96,11 +96,11 @@
 
                     <!-- CTA -->
                     <div class="flex flex-wrap gap-4 mt-8">
-                        <a href="{{route('frontend.consultation')}}"
-                            class="inline-flex items-center gap-2 bg-[#EBA35B] text-[#3E3229] px-6 py-3 rounded-lg font-semibold shadow-md hover:opacity-95 transition">
-                            📖 Book a Reading
-                        </a>
-                        <a href="{{route('frontend.about')}}"
+                        <button onclick="openCalendly()"
+                            class="px-6 py-1 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
+                            Book a Session
+                        </button>
+                        <a href="{{ route('frontend.about') }}"
                             class="inline-flex items-center gap-2 border border-neutral-600 px-5 py-3 rounded-lg text-sm text-neutral-200 hover:bg-neutral-700/40 transition">
                             📌 Learn More
                         </a>
@@ -238,11 +238,12 @@
 
                     <!-- Final CTA row -->
                     <div class="mt-8 flex flex-wrap items-center gap-4">
-                        <a href="{{route('frontend.about')}}"
-                            class="inline-flex items-center gap-2 bg-[#EBA35B] text-[#2f2621] px-5 py-3 rounded-lg font-medium shadow">
-                            Book a Session
-                        </a>
-                        <a href="{{route('frontend.contact')}}" class="text-sm text-neutral-300 underline hover:text-neutral-100">Contact </a>
+                        <button onclick="openCalendly()"
+                            class="px-6 py-3 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
+                            Book Now
+                        </button>
+                        <a href="{{ route('frontend.contact') }}"
+                            class="text-sm text-neutral-300 underline hover:text-neutral-100">Contact </a>
                     </div>
 
                     <!-- small footnote -->

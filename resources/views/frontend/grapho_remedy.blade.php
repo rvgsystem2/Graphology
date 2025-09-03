@@ -102,15 +102,17 @@
                     step towards a transformed life.
                 </p>
                 <div class="space-y-2">
-                    <p><span class="font-semibold text-[#EBA35B]">Contact:</span> <a href="tel:+919517291500" class="hover:underline text-white">+91
+                    <p><span class="font-semibold text-[#EBA35B]">Contact:</span> <a href="tel:+919517291500"
+                            class="hover:underline text-white">+91
                             95172 91500</a></p>
-                    <p><span class="font-semibold text-[#EBA35B]">Email:</span> <a href="mailto:shivanshdargarhlts@gmail.com"
+                    <p><span class="font-semibold text-[#EBA35B]">Email:</span> <a
+                            href="mailto:shivanshdargarhlts@gmail.com"
                             class="hover:underline text-white">shivanshdargarhlts@gmail.com</a></p>
                 </div>
-                <a href="mailto:shivanshdargarhlts@gmail.com"
-                    class="inline-block px-8 py-3 bg-[#EBA35B] text-[#3E3229] font-semibold rounded-full shadow-lg hover:bg-[#d88f4f] transition">
-                    Book a Session
-                </a>
+                <button onclick="openCalendly()"
+                    class="px-2 py-1 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
+                    Book Now
+                </button>
             </div>
         </div>
     </section>

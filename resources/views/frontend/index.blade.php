@@ -38,7 +38,12 @@
                     class="px-7 py-3 rounded-2xl border-2 border-[#EBA35B] text-[#EBA35B] font-semibold text-lg hover:bg-[#EBA35B] hover:text-white transition-all duration-300">
                     Learn More
                 </a>
-                
+                  <!-- Book Button -->
+  {{-- <button
+  onclick="openCalendly()"
+  class="px-6 py-3 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
+  Book Now
+</button> --}}
             </div>
         </div>
 
@@ -91,10 +96,11 @@
                         Book a session today with Kanpur’s <span class="text-[#EBA35B] font-semibold">leading graphologist &
                             wristwatch expert</span>.
                     </p>
-                    <a href="{{ route('frontend.about') }}"
-                       class="inline-block px-8 py-3 bg-gradient-to-r from-[#EBA35B] to-[#d98b41] text-white font-semibold rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
-                       Book a Session
-                    </a>
+                    <button
+                    onclick="openCalendly()"
+                    class="px-6 py-3 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
+                    Book Now
+                  </button>
                 </div>
             </div>
         </div>
@@ -124,10 +130,11 @@
 
             <!-- CTA -->
             <div class="flex items-center gap-4">
-
-               <a href="{{route('frontend.about')}}"><span class="text-sm font-semibold text-white bg-[#EBA35B]/60 py-4 bg-[#EBA35B]/40 px-4 rounded-full">Book a
-                    Session</span></a>
-
+                <button
+                onclick="openCalendly()"
+                class="px-6 py-3 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
+                Book Now
+              </button>
             </div>
         </div>
 
@@ -187,9 +194,11 @@
                 <div class="mt-6 flex items-center justify-between">
                     <a href="{{route('frontend.about')}}" class="text-sm font-medium underline underline-offset-4 text-yellow-200">Learn
                         more</a>
-                    <a href="{{route('frontend.consultation')}}"
-                        class="inline-flex items-center gap-2 text-sm font-semibold px-3 py-2 rounded-lg bg-white border border-indigo-500/20">Book
-                        Now</a>
+                        <button
+                        onclick="openCalendly()"
+                        class="px-6 py-3 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
+                        Book Now
+                      </button>
                 </div>
             </article>
 
@@ -242,9 +251,11 @@
                 <div class="mt-6 flex items-center justify-between">
                     <a href="{{route('frontend.about')}}" class="text-sm font-medium underline underline-offset-4 text-yellow-200">Learn
                         more</a>
-                    <a href="{{route('frontend.consultation')}}"
-                        class="inline-flex items-center gap-2 text-sm font-semibold px-3 py-2 rounded-lg bg-white border border-indigo-500/20">Book
-                        Now</a>
+                        <button
+                        onclick="openCalendly()"
+                        class="px-6 py-3 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
+                        Book Now
+                      </button>
                 </div>
             </article>
 
@@ -289,9 +300,11 @@
                 <div class="mt-6 flex items-center justify-between">
                     <a href="{{route('frontend.about')}}" class="text-sm font-medium underline underline-offset-4 text-yellow-200">Learn
                         more</a>
-                    <a href="{{route('frontend.consultation')}}"
-                        class="inline-flex items-center gap-2 text-sm font-semibold px-3 py-2 rounded-lg bg-white border border-emerald-400/20">Book
-                        Now</a>
+                        <button
+                        onclick="openCalendly()"
+                        class="px-6 py-3 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
+                        Book Now
+                      </button>
                 </div>
             </article>
 
@@ -557,10 +570,11 @@
                     class="px-6 py-3 rounded-full bg-[#EBA35B] text-[#3E3229] font-semibold text-lg shadow-lg hover:bg-[#d28f45] transition">
                     📞 Call Us Now
                 </a>
-                <a href="{{route('frontend.consultation')}}"
-                    class="px-6 py-3 rounded-full border-2 border-[#EBA35B] text-[#EBA35B] font-semibold text-lg hover:bg-[#EBA35B]/10 transition">
-                    📅 Book Online
-                </a>
+                <button
+                onclick="openCalendly()"
+                class="px-6 py-3 bg-[#EBA35B] text-black font-semibold rounded-full shadow-md hover:bg-[#c97c36] transition">
+                Book Now
+              </button>
             </div>
         </div>
 

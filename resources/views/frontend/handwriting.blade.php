@@ -39,8 +39,13 @@
             <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
                 <div class="space-y-6">
                     <p class="leading-relaxed">
-                        Your <span class="text-[#EBA35B]">handwriting</span> is a mirror of your inner world. It reflects your emotions, thinking patterns, and personality traits. <span class="text-[#EBA35B]">At Shivansh Dargarh Transformation,</span> we offer detailed handwriting analysis sessions that help you understand yourself better and make confident life decisions.
-                        With years of experience,<span class="text-[#EBA35B]"> Shivansh Dargarh </span> widely known as the best handwriting analyst in Kanpur, helping people from different walks of life achieve clarity and personal growth through accurate and personalized handwriting assessments.
+                        Your <span class="text-[#EBA35B]">handwriting</span> is a mirror of your inner world. It reflects
+                        your emotions, thinking patterns, and personality traits. <span class="text-[#EBA35B]">At Shivansh
+                            Dargarh Transformation,</span> we offer detailed handwriting analysis sessions that help you
+                        understand yourself better and make confident life decisions.
+                        With years of experience,<span class="text-[#EBA35B]"> Shivansh Dargarh </span> widely known as the
+                        best handwriting analyst in Kanpur, helping people from different walks of life achieve clarity and
+                        personal growth through accurate and personalized handwriting assessments.
 
                     </p>
                 </div>
@@ -112,7 +117,7 @@
             <div>
                 <h2 class="text-2xl md:text-3xl font-bold text-[#EBA35B] text-center mb-8">
                     Who Can Benefit
-              text-sm md:  </h2>
+                    text-sm md: </h2>
                 <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div class="bg-[#524439] p-6 rounded-xl shadow-md hover:shadow-lg transition text-center">
                         <h3 class="text-xl font-semibold mb-3">Students</h3>
@@ -175,10 +180,10 @@
 
             <!-- CTA Button -->
             <div class="mt-10">
-                <a href="mailto:shivanshdargarhlts@gmail.com"
-                    class="inline-block bg-[#EBA35B] text-[#3E3229] font-semibold px-8 py-3 rounded-xl shadow-md hover:bg-[#d08f4a] transition duration-300">
-                    Book Your Session Now
-                </a>
+                <button onclick="openCalendly()"
+                    class="px-6 py-3 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
+                    Book Now
+                </button>
             </div>
         </div>
     </section>

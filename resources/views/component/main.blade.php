@@ -13,15 +13,14 @@
 
 
 {{-- calendy form  --}}
-    <script>
-        function openModal() {
-          document.getElementById('bookingModal').classList.remove('hidden');
-          document.getElementById('bookingModal').classList.add('flex');
-        }
-        function closeModal() {
-          document.getElementById('bookingModal').classList.add('hidden');
-          document.getElementById('bookingModal').classList.remove('flex');
-        }
-      </script>
+
+<script>
+    function openCalendly() {
+      Calendly.initPopupWidget({
+        url: 'https://calendly.com/kakurr2018/30min?primary_color=3c8542'
+      });
+      return false; // Prevent page navigation
+    }
+  </script>
 </body>
 </html>

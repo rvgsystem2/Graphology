@@ -55,10 +55,10 @@
 
                 <!-- CTA Button -->
                 <div class="mt-8">
-                    <a href="{{route('frontend.consultation')}}"
-                        class="inline-block px-6 py-3 bg-[#EBA35B] text-[#3E3229] font-semibold rounded-full shadow-md hover:bg-[#d38c44] transition">
-                        Book Your Session
-                    </a>
+                    <button onclick="openCalendly()"
+                        class="px-6 py-3 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
+                        Book Now
+                    </button>
                 </div>
             </div>
 
@@ -175,10 +175,10 @@
 
             <!-- Button -->
             <div class="mt-10">
-                <a href="mailto:shivanshdargarhlts@gmail.com"
-                    class="inline-block px-10 py-4 bg-[#EBA35B] text-[#3E3229] font-semibold rounded-full shadow-lg hover:bg-[#d48d46] hover:scale-105 transition">
+                <button onclick="openCalendly()"
+                    class="px-6 py-3 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
                     Book Now
-                </a>
+                </button>
             </div>
         </div>
 

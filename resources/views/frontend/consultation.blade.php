@@ -116,7 +116,7 @@
 
                         <!-- Submit Button -->
                         <div class="text-center">
-                            <button type="submit"
+                            <button type="submit" onclick="openCalendly()"
                                 class="w-full md:w-auto px-8 py-3 bg-[#EBA35B] text-[#3E3229] font-semibold rounded-full shadow-lg hover:bg-[#d88f4f] transition">
                                 Book Consultation
                             </button>
