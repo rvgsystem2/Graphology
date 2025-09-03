@@ -22,6 +22,10 @@ Route::get('/wristwatch', [HomeController::class, 'wristwatch'])->name('frontend
 Route::get('/consultation', [HomeController::class, 'consultation'])->name('frontend.consultation');
 Route::get('/grapho_remedy', [HomeController::class, 'grapho_remedy'])->name('frontend.grapho_remedy');
 Route::get('/contact', [HomeController::class, 'contact'])->name('frontend.contact');
+Route::get('/privacy', [HomeController::class, 'privacy'])->name('frontend.privacy');
+Route::get('/shipping', [HomeController::class, 'shipping'])->name('frontend.shipping');
+Route::get('/return', [HomeController::class, 'return'])->name('frontend.return');
+Route::get('/terms', [HomeController::class, 'terms'])->name('frontend.terms');
 
 
 // Route::get('/', function () {

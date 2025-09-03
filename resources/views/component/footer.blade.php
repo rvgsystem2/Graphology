@@ -16,10 +16,10 @@
           <li><a href="/" class="hover:text-[#EAB35B] transition">Home</a></li>
           <li><a href="{{route('frontend.contact')}}" class="hover:text-[#EAB35B] transition">Contact Us</a></li>
           <li><a href="#" class="hover:text-[#EAB35B] transition">Pricing Policy</a></li>
-          <li><a href="#" class="hover:text-[#EAB35B] transition">Shipping & Cancellation</a></li>
-          <li><a href="#" class="hover:text-[#EAB35B] transition">Return Policy</a></li>
-          <li><a href="#" class="hover:text-[#EAB35B] transition">Privacy Policy</a></li>
-          <li><a href="#" class="hover:text-[#EAB35B] transition">Terms & Conditions</a></li>
+          <li><a href="{{route('frontend.shipping')}}" class="hover:text-[#EAB35B] transition">Shipping & Cancellation</a></li>
+          <li><a href="{{route('frontend.return')}}" class="hover:text-[#EAB35B] transition">Return Policy</a></li>
+          <li><a href="{{route('frontend.privacy')}}" class="hover:text-[#EAB35B] transition">Privacy Policy</a></li>
+          <li><a href="{{route('frontend.terms')}}" class="hover:text-[#EAB35B] transition">Terms & Conditions</a></li>
         </ul>
       </div>
 
@@ -28,8 +28,8 @@
         <h3 class="text-lg font-semibold text-[#EAB35B] mb-4">Our Services</h3>
         <ul class="space-y-2 text-sm">
           <li><a href="#" class="hover:text-[#EAB35B] transition">All Services</a></li>
-          <li><a href="#" class="hover:text-[#EAB35B] transition"> Handwriting Analysis</a></li>
-          <li><a href="#" class="hover:text-[#EAB35B] transition">Wrist-Watch Analysis</a></li>
+          <li><a href="{{route('frontend.handwriting')}}" class="hover:text-[#EAB35B] transition"> Handwriting Analysis</a></li>
+          <li><a href="{{route('frontend.wristwatch')}}" class="hover:text-[#EAB35B] transition">Wrist-Watch Analysis</a></li>
           <li><a href="#" class="hover:text-[#EAB35B] transition">Both Analysis</a></li>
           <li><a href="#" class="hover:text-[#EAB35B] transition">Pricing Page</a></li>
         </ul>
@@ -81,7 +81,7 @@
       <!-- Developer Credit -->
       <p class="whitespace-nowrap">
         Design & Developed By:
-        <span class="text-[#EBA35B] font-medium">Real Victory Groups</span>
+       <a href="#"> <span class="text-[#EBA35B] font-medium">Real Victory Groups</span></a>
       </p>
 
     </div>

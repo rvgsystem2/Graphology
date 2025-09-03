@@ -41,4 +41,20 @@ class HomeController extends Controller
     public function contact(){
         return view('frontend.contact');
     }
+
+    public function privacy(){
+        return view('frontend.privacy');
+    }
+
+    public function shipping(){
+        return view('frontend.shipping');
+    }
+
+    public function return(){
+        return view('frontend.return');
+    }
+
+    public function terms(){
+        return view('frontend.terms');
+    }
 }
