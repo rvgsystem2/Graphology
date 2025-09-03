@@ -39,7 +39,7 @@
                         <div>
                             <p class="text-sm text-gray-400">Phone</p>
                             <a href="tel:+919517291500"
-                                class="text-lg font-semibold text-gray-100 hover:text-[#EBA35B] transition">
+                                class="text-sm md:text-lg font-semibold text-gray-100 hover:text-[#EBA35B] transition">
                                 +91 95172 91500
                             </a>
                         </div>
@@ -52,7 +52,7 @@
                         <div>
                             <p class="text-sm text-gray-400">Email</p>
                             <a href="mailto:shivanshdargarhlts@gmail.com"
-                                class="text-lg font-semibold text-gray-100 hover:text-[#EBA35B] transition">
+                                class="text-sm md:text-lg font-semibold text-gray-100 hover:text-[#EBA35B] transition">
                                 shivanshdargarhlts@gmail.com
                             </a>
                         </div>
@@ -64,7 +64,7 @@
                         </span>
                         <div>
                             <p class="text-sm text-gray-400">Location</p>
-                            <p class="text-lg font-semibold text-gray-100">Kanpur, Uttar Pradesh, India</p>
+                            <p class="text-sm md:text-lg font-semibold text-gray-100">Kanpur, Uttar Pradesh, India</p>
                         </div>
                     </div>
                 </div>

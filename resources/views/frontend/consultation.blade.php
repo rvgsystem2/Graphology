@@ -39,7 +39,7 @@
                 <div class="space-y-10">
 
                     <!-- Handwriting Analysis -->
-                    <div class="bg-[#524439]/80 p-8 rounded-2xl shadow-lg border border-[#EBA35B]/20 space-y-4">
+                    <div class="bg-[#524439]/80 p-4 md:p-8 rounded-2xl shadow-lg border border-[#EBA35B]/20 space-y-4">
                         <h2 class="text-2xl font-semibold text-[#EBA35B]">Handwriting Analysis</h2>
                         <p class="text-gray-200 leading-relaxed">
                             Discover your true personality through the strokes of your handwriting.
@@ -54,7 +54,7 @@
                     </div>
 
                     <!-- Wristwatch Analysis -->
-                    <div class="bg-[#524439]/80 p-8 rounded-2xl shadow-lg border border-[#EBA35B]/20 space-y-4">
+                    <div class="bg-[#524439]/80 p-4 md:p-8 rounded-2xl shadow-lg border border-[#EBA35B]/20 space-y-4">
                         <h2 class="text-2xl font-semibold text-[#EBA35B]">Wristwatch Analysis</h2>
                         <p class="text-gray-200 leading-relaxed">
                             Every watch tells a story. Your choice of wristwatch reveals priorities,
@@ -70,7 +70,7 @@
                 </div>
 
                 <!-- Right: Booking Form -->
-                <div class="bg-[#524439]/90 rounded-2xl shadow-xl p-8 lg:p-10 border border-[#EBA35B]/30">
+                <div class="bg-[#524439]/90 rounded-2xl shadow-xl p-4 md:p-8 lg:p-10 border border-[#EBA35B]/30">
                     <h2 class="text-2xl font-bold text-[#EBA35B] mb-6 text-center">Book Your Session</h2>
                     <form class="space-y-5">
 

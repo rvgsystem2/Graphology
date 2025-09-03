@@ -32,7 +32,7 @@
             </div>
 
             <!-- How It Works -->
-            <div class="bg-[#524439]/70 p-10 rounded-2xl shadow-xl space-y-6">
+            <div class="bg-[#524439]/70 p-4 md:p-10 rounded-2xl shadow-xl space-y-6">
                 <h2 class="text-2xl font-semibold text-[#EBA35B]">How Grapho Remedies Work</h2>
                 <ul class="space-y-3 text-gray-200 list-disc list-inside">
                     <li>Identify negative patterns in your handwriting</li>
@@ -45,7 +45,7 @@
             <!-- Remedies Sections -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
                 <!-- Confidence -->
-                <div class="bg-[#524439]/70 p-8 rounded-2xl shadow-lg space-y-4">
+                <div class="bg-[#524439]/70 p-4 md:p-8 rounded-2xl shadow-lg space-y-4">
                     <h3 class="text-xl font-semibold text-[#EBA35B]">Boost Self-Confidence</h3>
                     <p class="text-gray-300">
                         Through grapho therapy, you can strengthen strokes that build self-belief and
@@ -55,7 +55,7 @@
                 </div>
 
                 <!-- Focus -->
-                <div class="bg-[#524439]/70 p-8 rounded-2xl shadow-lg space-y-4">
+                <div class="bg-[#524439]/70 p-4 md:p-8 rounded-2xl shadow-lg space-y-4">
                     <h3 class="text-xl font-semibold text-[#EBA35B]">Improve Focus & Clarity</h3>
                     <p class="text-gray-300">
                         Grapho remedies help in developing a sharper, goal-oriented mindset by aligning
@@ -64,7 +64,7 @@
                 </div>
 
                 <!-- Stress Relief -->
-                <div class="bg-[#524439]/70 p-8 rounded-2xl shadow-lg space-y-4">
+                <div class="bg-[#524439]/70 p-4 md:p-8 rounded-2xl shadow-lg space-y-4">
                     <h3 class="text-xl font-semibold text-[#EBA35B]">Reduce Stress & Anxiety</h3>
                     <p class="text-gray-300">
                         Handwriting modifications can rewire your subconscious, bringing calmness, emotional
@@ -73,7 +73,7 @@
                 </div>
 
                 <!-- Success Mindset -->
-                <div class="bg-[#524439]/70 p-8 rounded-2xl shadow-lg space-y-4">
+                <div class="bg-[#524439]/70 p-4 md:p-8 rounded-2xl shadow-lg space-y-4">
                     <h3 class="text-xl font-semibold text-[#EBA35B]">Develop a Success Mindset</h3>
                     <p class="text-gray-300">
                         Shape your strokes to cultivate positivity, ambition, and perseverance, helping
@@ -83,7 +83,7 @@
             </div>
 
             <!-- Who Can Benefit -->
-            <div class="bg-[#524439]/70 p-10 rounded-2xl shadow-xl space-y-6">
+            <div class="bg-[#524439]/70 p-4 md:p-10 rounded-2xl shadow-xl space-y-6">
                 <h2 class="text-2xl font-semibold text-[#EBA35B]">Who Can Benefit?</h2>
                 <ul class="space-y-3 text-gray-200 list-disc list-inside">
                     <li>Students aiming for better concentration and academic success</li>
@@ -94,7 +94,7 @@
             </div>
 
             <!-- Call to Action -->
-            <div class="text-center bg-[#EBA35B]/10 border border-[#EBA35B]/40 rounded-2xl shadow-xl p-12 space-y-6">
+            <div class="text-center bg-[#EBA35B]/10 border border-[#EBA35B]/40 rounded-2xl shadow-xl p-4 md:p-12 space-y-6">
                 <h2 class="text-3xl font-bold text-[#EBA35B]">Begin Your Grapho Remedy Journey</h2>
                 <p class="text-gray-200 max-w-2xl mx-auto">
                     Every stroke has the power to change your destiny. Book your Grapho Remedy session
@@ -102,10 +102,10 @@
                     step towards a transformed life.
                 </p>
                 <div class="space-y-2">
-                    <p><span class="font-semibold">Contact:</span> <a href="tel:+919517291500" class="hover:underline">+91
+                    <p><span class="font-semibold text-[#EBA35B]">Contact:</span> <a href="tel:+919517291500" class="hover:underline text-white">+91
                             95172 91500</a></p>
-                    <p><span class="font-semibold">Email:</span> <a href="mailto:shivanshdargarhlts@gmail.com"
-                            class="hover:underline">shivanshdargarhlts@gmail.com</a></p>
+                    <p><span class="font-semibold text-[#EBA35B]">Email:</span> <a href="mailto:shivanshdargarhlts@gmail.com"
+                            class="hover:underline text-white">shivanshdargarhlts@gmail.com</a></p>
                 </div>
                 <a href="mailto:shivanshdargarhlts@gmail.com"
                     class="inline-block px-8 py-3 bg-[#EBA35B] text-[#3E3229] font-semibold rounded-full shadow-lg hover:bg-[#d88f4f] transition">

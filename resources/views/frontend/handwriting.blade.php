@@ -84,25 +84,25 @@
             </div>
 
             <!-- Why Choose Section -->
-            <div class="bg-[#2A211C] rounded-2xl p-10 mb-16 shadow-xl">
-                <h2 class="text-2xl md:text-3xl font-bold text-[#EBA35B] text-center mb-8">
+            <div class="bg-[#2A211C] rounded-2xl p-4 md:p-10 mb-16 shadow-xl">
+                <h2 class="text-xl md:text-3xl font-bold text-[#EBA35B] text-center mb-8">
                     Why Choose Shivansh Dargarh
                 </h2>
                 <ul class="grid md:grid-cols-2 gap-6 text-lg">
                     <li class="flex items-start space-x-3">
-                        <span class="text-[#EBA35B] text-2xl">✔</span>
+                        <span class="text-[#EBA35B] text-sm md:text-2xl">✔</span>
                         <span>Recognized as the <strong>best handwriting analyst in Kanpur</strong></span>
                     </li>
                     <li class="flex items-start space-x-3">
-                        <span class="text-[#EBA35B] text-2xl">✔</span>
+                        <span class="text-[#EBA35B] text-sm md:text-2xl">✔</span>
                         <span>Hundreds of clients guided through accurate personality insights</span>
                     </li>
                     <li class="flex items-start space-x-3">
-                        <span class="text-[#EBA35B] text-2xl">✔</span>
+                        <span class="text-[#EBA35B] text-sm md:text-2xl">✔</span>
                         <span>In-depth analysis customized to your personal and professional goals</span>
                     </li>
                     <li class="flex items-start space-x-3">
-                        <span class="text-[#EBA35B] text-2xl">✔</span>
+                        <span class="text-[#EBA35B] text-sm md:text-2xl">✔</span>
                         <span>Sessions are confidential, friendly, and easy to understand</span>
                     </li>
                 </ul>
@@ -112,7 +112,7 @@
             <div>
                 <h2 class="text-2xl md:text-3xl font-bold text-[#EBA35B] text-center mb-8">
                     Who Can Benefit
-                </h2>
+              text-sm md:  </h2>
                 <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div class="bg-[#524439] p-6 rounded-xl shadow-md hover:shadow-lg transition text-center">
                         <h3 class="text-xl font-semibold mb-3">Students</h3>
