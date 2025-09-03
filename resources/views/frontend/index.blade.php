@@ -38,6 +38,7 @@
                     class="px-7 py-3 rounded-2xl border-2 border-[#EBA35B] text-[#EBA35B] font-semibold text-lg hover:bg-[#EBA35B] hover:text-white transition-all duration-300">
                     Learn More
                 </a>
+                
             </div>
         </div>
 
