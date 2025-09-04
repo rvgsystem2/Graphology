@@ -26,7 +26,7 @@ Route::get('/privacy', [HomeController::class, 'privacy'])->name('frontend.priva
 Route::get('/shipping', [HomeController::class, 'shipping'])->name('frontend.shipping');
 Route::get('/return', [HomeController::class, 'return'])->name('frontend.return');
 Route::get('/terms', [HomeController::class, 'terms'])->name('frontend.terms');
-
+Route::get('/blog', [HomeController::class, 'blog'])->name('frontend.blog');
 
 // Route::get('/', function () {
 //     return view('welcome');

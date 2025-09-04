@@ -57,4 +57,8 @@ class HomeController extends Controller
     public function terms(){
         return view('frontend.terms');
     }
+
+    public function blog(){
+        return view('frontend.blog');
+    }
 }
