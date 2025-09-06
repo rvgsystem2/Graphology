@@ -14,10 +14,9 @@
         <h3 class="text-lg font-semibold text-[#EAB35B] mb-4">Quick Links</h3>
         <ul class="space-y-2 text-sm">
           <li><a href="/" class="hover:text-[#EAB35B] transition">Home</a></li>
+          <li><a href="{{route('frontend.blog')}}" class="hover:text-[#EAB35B] transition">Blog</a></li>
           <li><a href="{{route('frontend.contact')}}" class="hover:text-[#EAB35B] transition">Contact Us</a></li>
-          <li><a href="#" class="hover:text-[#EAB35B] transition">Pricing Policy</a></li>
-          <li><a href="{{route('frontend.shipping')}}" class="hover:text-[#EAB35B] transition">Shipping & Cancellation</a></li>
-          <li><a href="{{route('frontend.return')}}" class="hover:text-[#EAB35B] transition">Return Policy</a></li>
+
           <li><a href="{{route('frontend.privacy')}}" class="hover:text-[#EAB35B] transition">Privacy Policy</a></li>
           <li><a href="{{route('frontend.terms')}}" class="hover:text-[#EAB35B] transition">Terms & Conditions</a></li>
         </ul>
@@ -27,11 +26,11 @@
       <div>
         <h3 class="text-lg font-semibold text-[#EAB35B] mb-4">Our Services</h3>
         <ul class="space-y-2 text-sm">
-          <li><a href="#" class="hover:text-[#EAB35B] transition">All Services</a></li>
+          <li><a href="{{route('frontend.contact')}}" class="hover:text-[#EAB35B] transition">All Services</a></li>
           <li><a href="{{route('frontend.handwriting')}}" class="hover:text-[#EAB35B] transition"> Handwriting Analysis</a></li>
           <li><a href="{{route('frontend.wristwatch')}}" class="hover:text-[#EAB35B] transition">Wrist-Watch Analysis</a></li>
-          <li><a href="#" class="hover:text-[#EAB35B] transition">Both Analysis</a></li>
-          <li><a href="#" class="hover:text-[#EAB35B] transition">Pricing Page</a></li>
+          <li><a href="{{route('frontend.consultation')}}" class="hover:text-[#EAB35B] transition">Consultation</a></li>
+
         </ul>
       </div>
 
@@ -52,13 +51,13 @@
 
     <!-- Social Media -->
     <div class="max-w-7xl mx-auto px-6 mt-10 flex justify-center space-x-6">
-      <a href="#" class="hover:text-[#EAB35B] transition" aria-label="Facebook">
+      <a href="https://www.facebook.com/shivanshdargarhlts" class="hover:text-[#EAB35B] transition" aria-label="Facebook">
         <i class="fab fa-facebook-f text-lg"></i>
       </a>
-      <a href="#" class="hover:text-[#EAB35B] transition" aria-label="Instagram">
+      <a href="https://www.instagram.com/shivanshdargarhlts/" class="hover:text-[#EAB35B] transition" aria-label="Instagram">
         <i class="fab fa-instagram text-lg"></i>
       </a>
-      <a href="#" class="hover:text-[#EAB35B] transition" aria-label="YouTube">
+      <a href="https://www.youtube.com/@ShivanshDargarhLTS" class="hover:text-[#EAB35B] transition" aria-label="YouTube">
         <i class="fab fa-youtube text-lg"></i>
       </a>
     </div>
