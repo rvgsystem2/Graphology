@@ -5,7 +5,8 @@
 
   <!-- Primary SEO -->
   <title>Graphologist & Handwriting Analyst in Kanpur | Wristwatch Teller – Shivansh Dargarh</title>
-
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
   {{-- fav icon --}}
   <link rel="icon" type="image/png" href="{{ asset('asset/img/Shivansh Dargarh Logo.png') }}" sizes="32x32">
 {{-- calendy --}}
