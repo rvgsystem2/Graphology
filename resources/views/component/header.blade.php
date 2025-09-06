@@ -8,7 +8,7 @@
     <a href="/" class="flex items-center">
       <img src="{{ asset('asset/img/Shivansh Dargarh Logo.png') }}"
            alt="Shivansh Dargarh Logo"
-           class="h-16 w-auto p-2 object-contain">
+           class="h-16 w-16 p-2 object-contain">
     </a>
   </div>
 

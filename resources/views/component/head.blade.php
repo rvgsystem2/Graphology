@@ -8,7 +8,7 @@
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   {{-- fav icon --}}
-  <link rel="icon" type="image/png" href="{{ asset('asset/img/Shivansh Dargarh Logo.png') }}" sizes="32x32">
+  <link rel="icon" type="image/png" href="{{ asset('asset/img/Shivansh Dargarh Logo.png') }}">
 {{-- calendy --}}
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
