@@ -65,7 +65,7 @@
     {{-- ABOUT SECTION --}}
     <section id="about" class="overflow-hidden">
         <div
-            class="mx-auto flex flex-col md:flex-row gap-8 md:gap-12 justify-center items-center py-12 md:py-12 lg:py-20 px-6 md:px-4 lg:px-24 overflow-hidden">
+            class="mx-auto flex flex-col md:flex-row gap-4 md:gap-12 justify-center items-center py-2 md:py-12 lg:py-20 px-4 md:px-4 lg:px-24 overflow-hidden">
 
             <!-- Image Left (Bigger size) -->
             <div class="flex-1">
