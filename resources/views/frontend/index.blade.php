@@ -1,7 +1,5 @@
 @extends('component.main')
 @section('content')
-
-
     {{-- HERO SECTION --}}
     <section
         class="bg-[#3E3229] max-w-full mx-auto flex flex-col-reverse md:flex-row gap-8 md:gap-12 justify-center items-center py-12 md:py-20 lg:py-20 px-6 md:px-4 lg:px-24 overflow-hidden">
@@ -34,12 +32,12 @@
                     class="px-7 py-3 rounded-2xl bg-[#EBA35B] text-white font-semibold text-lg shadow-lg shadow-[#EBA35B]/30 hover:bg-white hover:text-[#EBA35B] transition-all duration-300">
                     Get Started
                 </a>
-                <a href="{{route('frontend.consultation')}}"
+                <a href="{{ route('frontend.consultation') }}"
                     class="px-7 py-3 rounded-2xl border-2 border-[#EBA35B] text-[#EBA35B] font-semibold text-lg hover:bg-[#EBA35B] hover:text-white transition-all duration-300">
                     Learn More
                 </a>
-                  <!-- Book Button -->
-  {{-- <button
+                <!-- Book Button -->
+                {{-- <button
   onclick="openCalendly()"
   class="px-6 py-3 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
   Book Now
@@ -69,9 +67,8 @@
 
             <!-- Image Left (Bigger size) -->
             <div class="flex-1">
-                <img src="{{ asset('asset/img/enhaced-img.png') }}"
-                     alt="About Shivansh Dargarh"
-                     class="w-full h-full rounded-xl object-cover overflow-hidden ">
+                <img src="{{ asset('asset/img/enhaced-img.png') }}" alt="About Shivansh Dargarh"
+                    class="w-full h-full rounded-xl object-cover overflow-hidden ">
             </div>
 
             <!-- Content -->
@@ -96,11 +93,10 @@
                         Book a session today with Kanpur’s <span class="text-[#EBA35B] font-semibold">leading graphologist &
                             wristwatch expert</span>.
                     </p>
-                    <button
-                    onclick="openCalendly()"
-                    class="px-6 py-3 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
-                    Book Now
-                  </button>
+                    <button onclick="openCalendly()"
+                        class="px-6 py-3 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
+                        Book Now
+                    </button>
                 </div>
             </div>
         </div>
@@ -130,11 +126,10 @@
 
             <!-- CTA -->
             <div class="flex items-center gap-4">
-                <button
-                onclick="openCalendly()"
-                class="px-6 py-3 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
-                Book Now
-              </button>
+                <button onclick="openCalendly()"
+                    class="px-6 py-3 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
+                    Book Now
+                </button>
             </div>
         </div>
 
@@ -192,13 +187,13 @@
                 </ul>
 
                 <div class="mt-6 flex items-center justify-between">
-                    <a href="{{route('frontend.about')}}" class="text-sm font-medium underline underline-offset-4 text-yellow-200">Learn
+                    <a href="{{ route('frontend.about') }}"
+                        class="text-sm font-medium underline underline-offset-4 text-yellow-200">Learn
                         more</a>
-                        <button
-                        onclick="openCalendly()"
+                    <button onclick="openCalendly()"
                         class="px-6 py-3 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
                         Book Now
-                      </button>
+                    </button>
                 </div>
             </article>
 
@@ -249,13 +244,13 @@
                 </ul>
 
                 <div class="mt-6 flex items-center justify-between">
-                    <a href="{{route('frontend.about')}}" class="text-sm font-medium underline underline-offset-4 text-yellow-200">Learn
+                    <a href="{{ route('frontend.about') }}"
+                        class="text-sm font-medium underline underline-offset-4 text-yellow-200">Learn
                         more</a>
-                        <button
-                        onclick="openCalendly()"
+                    <button onclick="openCalendly()"
                         class="px-6 py-3 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
                         Book Now
-                      </button>
+                    </button>
                 </div>
             </article>
 
@@ -298,13 +293,13 @@
                 </ul>
 
                 <div class="mt-6 flex items-center justify-between">
-                    <a href="{{route('frontend.about')}}" class="text-sm font-medium underline underline-offset-4 text-yellow-200">Learn
+                    <a href="{{ route('frontend.about') }}"
+                        class="text-sm font-medium underline underline-offset-4 text-yellow-200">Learn
                         more</a>
-                        <button
-                        onclick="openCalendly()"
+                    <button onclick="openCalendly()"
                         class="px-6 py-3 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
                         Book Now
-                      </button>
+                    </button>
                 </div>
             </article>
 
@@ -538,6 +533,83 @@
         <!-- Overlay -->
         <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
     </div>
+
+    {{-- testimonial  --}}
+    <section class="bg-[#3E3229]/30 py-16 px-6 lg:px-20">
+        <div class="max-w-7xl mx-auto text-center">
+            <!-- Heading -->
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">What Our Clients Say</h2>
+            <p class="text-white max-w-2xl mx-auto mb-12">
+                Hear from individuals who have experienced life-changing insights through our handwriting and signature
+                analysis.
+            </p>
+
+            <!-- Testimonials Grid -->
+            <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+                <!-- Testimonial 1 -->
+                <div class="bg-[#835F3D] p-6 rounded-2xl shadow-md hover:shadow-lg transition">
+                    <div class="flex items-center mb-4">
+                        <img src="https://i.pravatar.cc/80?img=12" alt="Client"
+                            class="w-14 h-14 rounded-full border-2 border-[#EBA35B]">
+                        <div class="ml-4 text-left">
+                            <h4 class="font-semibold text-white">Anjali Sharma</h4>
+                            <p class="text-sm text-white">Corporate Professional</p>
+                        </div>
+                    </div>
+                    <p class="text-white italic mb-4">
+                        “The handwriting analysis was spot on! It revealed aspects of my personality I never realized, and
+                        the signature correction boosted my confidence.”
+                    </p>
+                    <!-- Stars -->
+                    <div class="flex text-yellow-500 justify-center ">
+                        ★★★★★
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-[#835F3D] p-6 rounded-2xl shadow-md hover:shadow-lg transition">
+                    <div class="flex items-center mb-4">
+                        <img src="https://i.pravatar.cc/80?img=36" alt="Client"
+                            class="w-14 h-14 rounded-full border-2 border-[#EBA35B]">
+                        <div class="ml-4 text-left">
+                            <h4 class="font-semibold text-white">Rahul Mehta</h4>
+                            <p class="text-sm text-white">Entrepreneur</p>
+                        </div>
+                    </div>
+                    <p class="text-white italic mb-4">
+                        “Graphology gave me clarity in my business decisions. The consultation on my logo was invaluable for
+                        my brand identity.”
+                    </p>
+                    <div class="flex text-yellow-500 justify-center ">
+                        ★★★★★
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-[#835F3D] p-6 rounded-2xl shadow-md hover:shadow-lg transition">
+                    <div class="flex items-center mb-4">
+                        <img src="https://i.pravatar.cc/80?img=45" alt="Client"
+                            class="w-14 h-14 rounded-full border-2 border-[#EBA35B]">
+                        <div class="ml-4 text-left">
+                            <h4 class="font-semibold text-white">Neha Verma</h4>
+                            <p class="text-sm text-white">Psychology Student</p>
+                        </div>
+                    </div>
+                    <p class="text-white italic mb-4">
+                        “Understanding personality traits through handwriting fascinated me. This experience is a must for
+                        anyone seeking self-discovery.”
+                    </p>
+                    <div class="flex text-yellow-500 justify-center">
+                        ★★★★★
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+ 
     {{-- NEXT STEP TO DO --}}
     <section id="cta"
         class="relative bg-gradient-to-r from-[#3E3229] via-[#2a221c] to-[#3E3229] py-16 md:py-20 lg:py-24">
@@ -570,11 +642,10 @@
                     class="px-6 py-3 rounded-full bg-[#EBA35B] text-[#3E3229] font-semibold text-lg shadow-lg hover:bg-[#d28f45] transition">
                     📞 Call Us Now
                 </a>
-                <button
-                onclick="openCalendly()"
-                class="px-6 py-3 bg-[#EBA35B] text-black font-semibold rounded-full shadow-md hover:bg-[#c97c36] transition">
-                Book Now
-              </button>
+                <button onclick="openCalendly()"
+                    class="px-6 py-3 bg-[#EBA35B] text-black font-semibold rounded-full shadow-md hover:bg-[#c97c36] transition">
+                    Book Now
+                </button>
             </div>
         </div>
 
@@ -582,7 +653,4 @@
         <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
     </section>
     {{-- END NEXT STEP SECTION  --}}
-
 @endsection
-
-
