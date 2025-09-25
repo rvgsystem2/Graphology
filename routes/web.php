@@ -27,6 +27,7 @@ Route::get('/shipping', [HomeController::class, 'shipping'])->name('frontend.shi
 Route::get('/return', [HomeController::class, 'return'])->name('frontend.return');
 Route::get('/terms', [HomeController::class, 'terms'])->name('frontend.terms');
 Route::get('/blog', [HomeController::class, 'blog'])->name('frontend.blog');
+Route::get('/pop-up', [HomeController::class, 'popup'])->name('frontend.pop-up');
 
 // Route::get('/', function () {
 //     return view('welcome');

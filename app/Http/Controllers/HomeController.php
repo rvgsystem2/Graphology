@@ -61,4 +61,8 @@ class HomeController extends Controller
     public function blog(){
         return view('frontend.blog');
     }
+
+    public function popup(){
+        return view('frontend.pop-up');
+    }
 }

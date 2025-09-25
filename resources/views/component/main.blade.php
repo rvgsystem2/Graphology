@@ -17,7 +17,7 @@
 <script>
     function openCalendly() {
       Calendly.initPopupWidget({
-        url: 'https://calendly.com/kakurr2018/30min?primary_color=3c8542'
+        url: 'https://calendly.com/shivanshdargarhlts/30min?month=2025-09'
       });
       return false; // Prevent page navigation
     }

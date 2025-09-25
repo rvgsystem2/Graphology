@@ -33,7 +33,73 @@
             </div>
 
             <!-- Two Column Layout -->
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start ">
+
+
+                 <!-- Right: Booking Form -->
+                 <div class="bg-[#524439]/90 rounded-2xl shadow-xl p-4 md:p-8 lg:p-10 border border-[#EBA35B]/30 ">
+                    <h2 class="text-2xl font-bold text-[#EBA35B] mb-6 text-center">Book Your Session</h2>
+
+                            <!-- Booking Form -->
+                            <form class="space-y-6" id="bookingForm">
+
+                                <!-- Full Name -->
+                                <div>
+                                    <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                                    <input type="text" id="name" name="name" required
+                                        class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#EBA35B] transition duration-200 bg-transparent text-white"  />
+                                </div>
+
+                                <!-- Email -->
+                                <div>
+                                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                                    <input type="email" id="email" name="email" required
+                                        class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#EBA35B] transition duration-200 bg-transparent text-white" />
+                                </div>
+
+                                <!-- Phone Number -->
+                                <div>
+                                    <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone"
+                                        class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#EBA35B] transition duration-200 bg-transparent text-white" />
+                                </div>
+
+                                <!-- Date and Time Grid -->
+                                <div class="grid md:grid-cols-2 gap-6">
+                                    <!-- Preferred Date -->
+                                    <div>
+                                        <label for="date" class="block text-sm font-medium text-gray-700 mb-1">Preferred Date</label>
+                                        <input type="date" id="date" name="date" required
+                                            class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#EBA35B] transition duration-200 bg-transparent text-white" />
+                                    </div>
+
+                                    <!-- Preferred Time -->
+                                    <div>
+                                        <label for="time" class="block text-sm font-medium text-gray-700 mb-1">Preferred Time</label>
+                                        <input type="time" id="time" name="time" required
+                                            class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#EBA35B] transition duration-200 bg-transparent text-white" />
+                                    </div>
+                                </div>
+
+                                <!-- Additional Notes -->
+                                <div>
+                                    <label for="notes" class="block text-sm font-medium text-gray-700 mb-1">Additional Notes</label>
+                                    <textarea id="notes" name="notes" rows="4"
+                                        placeholder="Tell us more about your needs..."
+                                        class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#EBA35B] transition duration-200 bg-transparent text-white"></textarea>
+                                </div>
+
+                                <!-- Submit Button -->
+                                <div>
+                                    <button type="submit"
+                                        class="w-full bg-[#EBA35B] text-white py-3 rounded-lg font-semibold text-lg hover:bg-[#c97c36] transition duration-200">
+                                        Confirm Booking
+                                    </button>
+                                </div>
+
+                            </form>
+
+                </div>
 
                 <!-- Left: Info Section -->
                 <div class="space-y-10">
@@ -69,60 +135,7 @@
 
                 </div>
 
-                <!-- Right: Booking Form -->
-                <div class="bg-[#524439]/90 rounded-2xl shadow-xl p-4 md:p-8 lg:p-10 border border-[#EBA35B]/30">
-                    <h2 class="text-2xl font-bold text-[#EBA35B] mb-6 text-center">Book Your Session</h2>
-                    <form class="space-y-5">
 
-                        <!-- Name -->
-                        <div>
-                            <label for="name" class="block text-gray-200 mb-2">Full Name</label>
-                            <input type="text" id="name" placeholder="Enter your name"
-                                class="w-full px-4 py-3 rounded-xl bg-[#3E3229] border border-[#EBA35B]/30 text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#EBA35B]">
-                        </div>
-
-                        <!-- Email -->
-                        <div>
-                            <label for="email" class="block text-gray-200 mb-2">Email</label>
-                            <input type="email" id="email" placeholder="Enter your email"
-                                class="w-full px-4 py-3 rounded-xl bg-[#3E3229] border border-[#EBA35B]/30 text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#EBA35B]">
-                        </div>
-
-                        <!-- Phone -->
-                        <div>
-                            <label for="phone" class="block text-gray-200 mb-2">Phone</label>
-                            <input type="tel" id="phone" placeholder="+91 95172 91500"
-                                class="w-full px-4 py-3 rounded-xl bg-[#3E3229] border border-[#EBA35B]/30 text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#EBA35B]">
-                        </div>
-
-                        <!-- Consultation Type -->
-                        <div>
-                            <label for="service" class="block text-gray-200 mb-2">Select Consultation Type</label>
-                            <select id="service"
-                                class="w-full px-4 py-3 rounded-xl bg-[#3E3229] border border-[#EBA35B]/30 text-gray-100 focus:outline-none focus:ring-2 focus:ring-[#EBA35B]">
-                                <option value="">Choose a service</option>
-                                <option value="handwriting">Handwriting Analysis</option>
-                                <option value="wristwatch">Wristwatch Analysis</option>
-                                <option value="both">Both Services</option>
-                            </select>
-                        </div>
-
-                        <!-- Message -->
-                        <div>
-                            <label for="message" class="block text-gray-200 mb-2">Additional Message</label>
-                            <textarea id="message" rows="4" placeholder="Write your query or preference..."
-                                class="w-full px-4 py-3 rounded-xl bg-[#3E3229] border border-[#EBA35B]/30 text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#EBA35B]"></textarea>
-                        </div>
-
-                        <!-- Submit Button -->
-                        <div class="text-center">
-                            <button type="submit" onclick="openCalendly()"
-                                class="w-full md:w-auto px-8 py-3 bg-[#EBA35B] text-[#3E3229] font-semibold rounded-full shadow-lg hover:bg-[#d88f4f] transition">
-                                Book Consultation
-                            </button>
-                        </div>
-                    </form>
-                </div>
             </div>
 
             <!-- Contact Info -->
@@ -136,4 +149,5 @@
 
         </div>
     </section>
+
 @endsection

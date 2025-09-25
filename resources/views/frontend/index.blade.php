@@ -56,7 +56,7 @@
     </section>
     {{-- end hero section --}}
     <!-- Decorative Divider -->
-    <div class="relative w-full -mt-20 h-2 my-12 overflow-hidden bg-[#EBA35B] hidden md:block">
+    <div class="relative w-full -mt-20 h-2 my-12 overflow-hidden bg-[#EBA35B] hidden lg:block">
         <!-- Overlay -->
         <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
     </div>
@@ -97,6 +97,11 @@
                         class="px-6 py-3 bg-[#EBA35B] text-white font-semibold rounded-lg shadow-md hover:bg-[#c97c36] transition">
                         Book Now
                     </button>
+
+
+
+
+
                 </div>
             </div>
         </div>
@@ -104,7 +109,7 @@
 
     {{-- end section --}}
     <!-- Decorative Divider -->
-    <div class="relative w-full -mt-20 h-2 my-12 overflow-hidden bg-[#EBA35B] hidden md:block">
+    <div class="relative w-full -mt-20 h-2 my-12 overflow-hidden bg-[#EBA35B] hidden lg:block">
 
         <!-- Overlay -->
         <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
@@ -310,7 +315,7 @@
 
     {{-- end service section --}}
     <!-- Decorative Divider -->
-    <div class="relative w-full  h-2 my-12 overflow-hidden bg-[#EBA35B] hidden md:block">
+    <div class="relative w-full  h-2 my-12 overflow-hidden bg-[#EBA35B] hidden lg:block">
 
         <!-- Overlay -->
         <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
@@ -446,7 +451,7 @@
         </div>
     </section>
     <!-- Decorative Divider -->
-    <div class="relative w-full h-2 my-12 overflow-hidden bg-[#EBA35B] hidden md:block">
+    <div class="relative w-full h-2 my-12 overflow-hidden bg-[#EBA35B] hidden lg:block">
 
         <!-- Overlay -->
         <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
@@ -528,7 +533,7 @@
     </section>
     {{-- END WHY CHOOSE  ME SECTION --}}
     <!-- Decorative Divider -->
-    <div class="relative w-full  h-2 my-12 overflow-hidden bg-[#EBA35B] hidden md:block">
+    <div class="relative w-full  h-2 my-12 overflow-hidden bg-[#EBA35B] hidden lg:block">
 
         <!-- Overlay -->
         <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
@@ -609,7 +614,7 @@
         </div>
     </section>
 
- 
+
     {{-- NEXT STEP TO DO --}}
     <section id="cta"
         class="relative bg-gradient-to-r from-[#3E3229] via-[#2a221c] to-[#3E3229] py-16 md:py-20 lg:py-24">
