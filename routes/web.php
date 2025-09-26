@@ -29,6 +29,10 @@ Route::get('/terms', [HomeController::class, 'terms'])->name('frontend.terms');
 Route::get('/blog', [HomeController::class, 'blog'])->name('frontend.blog');
 Route::get('/pop-up', [HomeController::class, 'popup'])->name('frontend.pop-up');
 
+Route::post('consultation/store', [\App\Http\Controllers\ConsultationController::class, 'store'])->name('consultation.store');
+Route::post('contact/store', [\App\Http\Controllers\ContactController::class, 'store'])->name('contact.store');
+
+
 // Route::get('/', function () {
 //     return view('welcome');
 // });
@@ -42,6 +46,16 @@ Route::get('/dashboard', [DashboardController::class, 'dashboard'])->middleware(
 
 // Routes that require authentication
 Route::middleware('auth')->group(function () {
+
+    Route::prefix('consultation')->name('consultation.')->controller(\App\Http\Controllers\ConsultationController::class)->group(function(){
+       Route::get('index', 'index')->name('index');
+    });
+
+    Route::prefix('contact')->name('contact.')->controller(\App\Http\Controllers\ContactController::class)->group(function(){
+        Route::get('index', 'index')->name('index');
+    });
+
+
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
@@ -71,6 +85,8 @@ Route::middleware('auth')->group(function () {
     Route::get('user/delete/{user}',[UserController::class,'delete'])->name('user.delete');
     Route::get('/user/permissions/{user}', [UserController::class, 'assignPermissionForm'])->name('user.permission.form');
     Route::post('/user/permissions/{user}', [UserController::class, 'assignPermissionToUser'])->name('user.assign-permission');
+
+
 
 
 

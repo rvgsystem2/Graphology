@@ -41,8 +41,8 @@
                     <h2 class="text-2xl font-bold text-[#EBA35B] mb-6 text-center">Book Your Session</h2>
 
                             <!-- Booking Form -->
-                            <form class="space-y-6" id="bookingForm">
-
+                            <form action="{{route('consultation.store')}}" method="post" class="space-y-6" id="bookingForm">
+                                @csrf
                                 <!-- Full Name -->
                                 <div>
                                     <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>

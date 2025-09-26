@@ -73,7 +73,8 @@
             <!-- Right: Contact Form -->
             <div class="bg-[#524439]/70 p-8 rounded-2xl shadow-lg">
                 <h3 class="text-2xl font-semibold text-[#EBA35B] mb-6">Send a Message</h3>
-                <form class="space-y-5">
+                <form action="{{route('contact.store')}}" method="post" class="space-y-5">
+                    @csrf
                     <div>
                         <label for="name" class="block text-gray-200 mb-2">Name</label>
                         <input type="text" id="name" name="name" required
