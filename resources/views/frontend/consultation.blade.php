@@ -45,21 +45,21 @@
 
                                 <!-- Full Name -->
                                 <div>
-                                    <label for="name" class="block text-sm font-medium text-gray-100 mb-1">Full Name</label>
+                                    <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
                                     <input type="text" id="name" name="name" required
                                         class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#EBA35B] transition duration-200 bg-transparent text-white"  />
                                 </div>
 
                                 <!-- Email -->
                                 <div>
-                                    <label for="email" class="block text-sm font-medium text-gray-100 mb-1">Email Address</label>
+                                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
                                     <input type="email" id="email" name="email" required
                                         class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#EBA35B] transition duration-200 bg-transparent text-white" />
                                 </div>
 
                                 <!-- Phone Number -->
                                 <div>
-                                    <label for="phone" class="block text-sm font-medium text-gray-100 mb-1">Phone Number</label>
+                                    <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
                                     <input type="tel" id="phone" name="phone"
                                         class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#EBA35B] transition duration-200 bg-transparent text-white" />
                                 </div>
@@ -68,14 +68,14 @@
                                 <div class="grid md:grid-cols-2 gap-6">
                                     <!-- Preferred Date -->
                                     <div>
-                                        <label for="date" class="block text-sm font-medium text-gray-100 mb-1">Preferred Date</label>
+                                        <label for="date" class="block text-sm font-medium text-gray-700 mb-1">Preferred Date</label>
                                         <input type="date" id="date" name="date" required
                                             class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#EBA35B] transition duration-200 bg-transparent text-white" />
                                     </div>
 
                                     <!-- Preferred Time -->
                                     <div>
-                                        <label for="time" class="block text-sm font-medium text-gray-100 mb-1">Preferred Time</label>
+                                        <label for="time" class="block text-sm font-medium text-gray-700 mb-1">Preferred Time</label>
                                         <input type="time" id="time" name="time" required
                                             class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#EBA35B] transition duration-200 bg-transparent text-white" />
                                     </div>
@@ -83,7 +83,7 @@
 
                                 <!-- Additional Notes -->
                                 <div>
-                                    <label for="notes" class="block text-sm font-medium text-gray-100 mb-1">Additional Notes</label>
+                                    <label for="notes" class="block text-sm font-medium text-gray-700 mb-1">Additional Notes</label>
                                     <textarea id="notes" name="notes" rows="4"
                                         placeholder="Tell us more about your needs..."
                                         class="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#EBA35B] transition duration-200 bg-transparent text-white"></textarea>

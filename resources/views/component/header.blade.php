@@ -53,6 +53,7 @@
             </li>
 
             <li><a href="{{route('frontend.consultation')}}" class="hover:text-[#EFD094] transition">Consultation</a></li>
+            <li><a href="{{route('frontend.appointment')}}" class="hover:text-[#EFD094] transition">Appointment</a></li>
             <li><a href="{{route('frontend.grapho_remedy')}}" class="hover:text-[#EFD094] transition">Grapho Remedy</a></li>
             <li><a href="{{route('frontend.contact')}}" class="hover:text-[#EFD094] transition">Contact</a></li>
           </ul>
@@ -84,6 +85,8 @@
       </div>
 
       <a href="{{route('frontend.consultation')}}" class="block hover:text-[#EFD094] transition">Consultation</a>
+
+      <a href="{{route('frontend.appointment')}}" class="block hover:text-[#EFD094] transition">Appointment</a>
       <a href="{{route('frontend.grapho_remedy')}}" class="block hover:text-[#EFD094] transition">Grapho Remedy</a>
       <a href="{{route('frontend.contact')}}" class="block hover:text-[#EFD094] transition">Contact</a>
     </div>

@@ -65,4 +65,8 @@ class HomeController extends Controller
     public function popup(){
         return view('frontend.pop-up');
     }
+
+    public function appointment(){
+        return view('frontend.appointment');
+    }
 }
