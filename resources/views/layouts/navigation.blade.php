@@ -53,6 +53,14 @@
 
                         </div>
                     </div>
+
+                    <x-nav-link :href="route('consultation.index')" :active="request()->routeIs('consultation.*')">
+                        <i class="fas fa-tachometer-alt mr-1"></i> Consultation
+                    </x-nav-link>
+
+                    <x-nav-link :href="route('contact.index')" :active="request()->routeIs('contact.*')">
+                        <i class="fas fa-tachometer-alt mr-1"></i> Contacts
+                    </x-nav-link>
                 </div>
             </div>
 
