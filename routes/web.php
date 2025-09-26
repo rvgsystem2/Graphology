@@ -29,6 +29,7 @@ Route::get('/terms', [HomeController::class, 'terms'])->name('frontend.terms');
 Route::get('/blog', [HomeController::class, 'blog'])->name('frontend.blog');
 Route::get('/pop-up', [HomeController::class, 'popup'])->name('frontend.pop-up');
 Route::get('/appointment', [HomeController::class, 'appointment'])->name('frontend.appointment');
+Route::get('/thankyou', [HomeController::class, 'thankyou'])->name('frontend.thankyou');
 
 Route::post('consultation/store', [\App\Http\Controllers\ConsultationController::class, 'store'])->name('consultation.store');
 Route::post('contact/store', [\App\Http\Controllers\ContactController::class, 'store'])->name('contact.store');
