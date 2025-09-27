@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Contact;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -40,7 +41,8 @@ class ContactController extends Controller
             'email' => 'required|email',
             'message' =>  'nullable',
         ]);
-        Contact::create($request->all());
+        $contact = Contact::create($request->all());
+        Mail::to('shivanshdargarhlts@gmail.com')->send(new \App\Mail\Contact($contact));
         return back()->with('success', 'Consultation Saved successfully');
     }
 

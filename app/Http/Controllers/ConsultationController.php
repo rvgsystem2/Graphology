@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ConsultationMail;
 use App\Models\Consultation;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class ConsultationController extends Controller
 {
@@ -16,8 +18,11 @@ class ConsultationController extends Controller
             'time' => 'required',
             'notes' =>  'nullable',
         ]);
-        Consultation::create($request->all());
-        return back()->with('success', 'Consultation Saved successfully');
+        $consultation = Consultation::create($request->all());
+        Mail::to($consultation->email)
+            ->cc('shivanshdargarhlts@gmail.com')
+            ->send(new ConsultationMail($consultation));
+        return redirect('appointment')->with('success', 'Consultation Saved successfully');
     }
 
     public function index(Request $request)
